@@ -322,6 +322,11 @@
     margin-bottom: 40px;
   }
 
+  .hero-description2 {
+    color: #a6ff33;
+   align-items: center;
+  }
+
   /* BUTTON */
 
   .custom-btn-black {
@@ -738,6 +743,23 @@
   .nav-item .nav-link.active,
   .nav-item .nav-link:hover {
     color: var(--green-color);
+   
+
+  }
+
+  .nav-item2 .nav-link {
+    display: block;
+    color: var(--green-color);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    padding: 2px 6px;
+  }
+
+  .nav-item2 .nav-link.active,
+  .nav-item2 .nav-link:hover {
+    color: var(--white-color);
    
 
   }
