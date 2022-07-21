@@ -225,6 +225,19 @@
     margin-top: -22px;
      
   }
+  .speedo {
+    color:var(--blue-color);
+    font-style: italic;
+    font-size:32px;
+  }
+
+  .hero-main {
+    font-size:28px;
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
 
   .linefeatures {
     content: "";
@@ -281,8 +294,9 @@
   }
 
   .res-image {
-    width: 640px;
+
     height: auto;
+    max-width: 640px;
     margin-top: 16px;
     margin-left: -40px;
   }
@@ -318,8 +332,8 @@
 
   /* HERO */
   .hero-description {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
   }
 
   .hero-description2 {
@@ -403,23 +417,24 @@
     
   }
 
-  /* Hero button */
+  /* Hero button green bordered*/
   .custom-btn-hero {
     background: transparent;
-    border-radius: var(--border-radius-small);
-    padding: 10px 14px;
-    border-radius: 6px;
-    color: var(--btn-green);
+    width: 140px;
+    padding: 10px 12px;
+    border-radius: 24px;
     font-size: var(--menu-font-size);
-    font-weight: var(--font-weight-normal);
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     white-space: nowrap;
     transition: all 0.3s ease;
+    
   }
 
   .custom-btn-hero:hover {
-    color: var(--btn-green);
+    color: var(--btn-blue);
+    background: var(--light-grey-color);
   }
 
   .custom-btn-hero:focus {
@@ -429,19 +444,19 @@
   .custom-btn-hero.bordered:hover,
   .custom-btn-hero.bordered:focus,
 
-  .custom-btn-hero.bg-color:hover,
-  .custom-btn-hero.bg-color:focus {
+  .custom-btn-hero.bg-color2:hover,
+  .custom-btn-hero.bg-color2:focus {
     background: var(--light-grey-color);
-    border-color: var(--btn-green);
-    color: var(--btn-green);
-  }
-  .bordered {
-    border: 1px solid var(--btn-blue);
+    border-color: var(--btn-blue);
     color: var(--btn-blue);
+  }
+  .bordered1 {
+    border: 1px solid var(--btn-green);
+    color: var(--btn-green);
   }
 
   .bg-color {
-    background: var(--primary-color);
+    background: var(--btn-blue);
     color: var(--light-grey-color);
     
   }
@@ -449,9 +464,8 @@
   /* CONTACT buttons */
   .custom-btn-contact {
     background: transparent;
-    border-radius: var(--border-radius-small);
+    border-radius: 24px;
     padding: 10px 14px;
-    border-radius: 6px;
     color: var(--btn-green);
     font-size: var(--menu-font-size);
     font-weight: var(--font-weight-normal);
@@ -479,8 +493,8 @@
     color: var(--btn-green);
   }
   .bordered {
-    border: 1px solid var(--btn-blue);
-    color: var(--btn-blue);
+    border: 1px solid var(--btn-green);
+    color: var(--btn-gree);
   }
 
   .bg-color {
@@ -489,15 +503,15 @@
     
   }
 
-    /* Hero button green */
+    /* Hero button blue */
     .custom-btn-hero-green {
       background: transparent;
 
       padding: 10px 14px;
 
-      color: var(--btn-green);
+      color: var(--btn-blue);
       font-size: var(--menu-font-size);
-      font-weight: var(--font-weight-normal);
+      font-weight: bold;
       text-transform: uppercase;
       letter-spacing: 0.5px;
       white-space: nowrap;
@@ -505,7 +519,7 @@
     }
   
     .custom-btn-hero-green:hover {
-      color: var(--btn-blue);
+      color: var(--white-color);
     }
   
     .custom-btn-hero-green:focus {
@@ -579,10 +593,10 @@
 
   .custom-btn-get-involved {
     background: #000;
-    border-radius: var(--border-radius-small);
+
     padding: 10px 14px;
 
-    border-radius: 6px;
+    border-radius: 24px;
     color: var(--btn-green);
     font-size: var(--menu-font-size);
     font-weight: var(--font-weight-normal);
