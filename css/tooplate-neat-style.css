@@ -62,7 +62,9 @@
     --h6-font-size:         22px;
     --p-font-size:          18px;
     --base-font-size:       16px;
+    --hero-font-size:       15px;
     --menu-font-size:       14px;
+    --btn-font-size:        12px;
 
     --border-radius-large:  100%;
     --border-radius-small:  2px;
@@ -423,7 +425,7 @@
     width: 140px;
     padding: 10px 12px;
     border-radius: 24px;
-    font-size: var(--menu-font-size);
+    font-size: var(--hero-font-size);
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -467,7 +469,7 @@
     border-radius: 24px;
     padding: 10px 14px;
     color: var(--btn-green);
-    font-size: var(--menu-font-size);
+    font-size: var(--btn-font-size);
     font-weight: var(--font-weight-normal);
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -510,7 +512,7 @@
       padding: 10px 14px;
 
       color: var(--btn-blue);
-      font-size: var(--menu-font-size);
+      font-size: var(--hero-font-size);
       font-weight: bold;
       text-transform: uppercase;
       letter-spacing: 0.5px;
@@ -598,7 +600,7 @@
 
     border-radius: 24px;
     color: var(--btn-green);
-    font-size: var(--menu-font-size);
+    font-size: var(--btn-font-size);
     font-weight: var(--font-weight-normal);
     text-transform: uppercase;
     letter-spacing: 0.5px;
