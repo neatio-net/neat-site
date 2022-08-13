@@ -33,15 +33,17 @@
     --primary-color:        #00bfff;
     --white-color:          #ffffff;
     --black-color:          #000000;
-    --light-grey-color:      #24292f;
+    --light-grey-color:     #24292f;
     --dark-grey-color:      #191919;
     --blue-color:           #00bfff;
+    --very-blue-color:      #33475c;
+    --res-blue-color:       #3c5875;
     --green-color:          #a6ff33;
     --btn-green:            #a6ff33;
     --btn-blue:             #00bfff;
     --btn-black:            #000000;
-    --dark-color:           #24292f;
-    --about-bg-color:       #24292f;
+    --dark-color:           #24262f;
+    --about-bg-color:       #1f242e;
 
     --gray-color:           #fff;
     --link-color:           #00bfff;
@@ -151,14 +153,14 @@
   .h2-black {
     font-size: var(--h2-font-size);
     font-weight: var(--font-weight-bold);
-    color: #000;
+    color: #fff;
     text-align: left;
   }
 
   .h2-res {
     font-size: var(--h2-font-size);
     font-weight: var(--font-weight-bold);
-    color: #000;
+    color: #fff;
     text-align: left;
     margin-left: 48px;
   }
@@ -325,6 +327,18 @@
     padding: 7rem 0;
   }
 
+.h2-git {
+  color:#fff;
+}
+
+.mb-4-git {
+  color: #fff
+}
+
+.contactus {
+  color: #fff;
+}
+
 
   .contact-us {
     margin-top: 40px;
@@ -423,6 +437,7 @@
   .custom-btn-hero {
     background: transparent;
     width: 140px;
+    margin: 0 10px;
     padding: 10px 12px;
     border-radius: 24px;
     font-size: var(--hero-font-size);
@@ -452,9 +467,49 @@
     border-color: var(--btn-blue);
     color: var(--btn-blue);
   }
+
+  .custom-btn-hero2 {
+    background: var(--light-grey-color);
+    width: 140px;
+    margin: 0 10px;
+    padding: 10px 12px;
+    border-radius: 24px;
+    font-size: var(--hero-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    
+  }
+
+  .custom-btn-hero2:hover {
+    color: var(--white-color);
+    background: var(--very-blue-color);
+  }
+
+  .custom-btn-hero2:focus {
+    box-shadow: none;
+  }
+
+  .custom-btn-hero2.bordered:hover,
+  .custom-btn-hero2.bordered:focus,
+
+  .custom-btn-hero2.bg-color2:hover,
+  .custom-btn-hero2.bg-color2:focus {
+    background: var(--dark-grey-color);
+    border-color: var(--white-color);
+    color: var(--btn-blue);
+  }
+
   .bordered1 {
     border: 1px solid var(--btn-green);
     color: var(--btn-green);
+  }
+
+  .bordered2 {
+    border: 1px solid var(--btn-blue);
+    color: var(--btn-blue);
   }
 
   .bg-color {
@@ -550,11 +605,10 @@
 
         /* Resources button dark-grey */
         .custom-btn-dark-grey {
-          background: transparent;
-    
+          background: transparent;    
           padding: 10px 14px;
     
-          color: var(--dark-grey-color);
+          color: var(--res-blue-color);
           font-size: var(--menu-font-size);
           font-weight: var(--font-weight-normal);
           text-transform: uppercase;
@@ -854,7 +908,7 @@
   -----------------------------------------*/
 
   .hero {
-    background-image: url('../images/hero-bg.png');
+    background-image: url('../images/hero-back.png');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -926,11 +980,17 @@
   -----------------------------------------*/
 
   .class-info {
-    background: #212122;
+    background: #24292f;
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
     border-radius: 0 0 2px 2px;
     padding: 1rem 2rem;
     position: relative;
+  }
+
+  .class-thumb{
+    border-color: #fff;
+    border-style: groove;
+    border-width: 1px;
   }
 
   .class-info img {
@@ -966,6 +1026,10 @@
     RESOURCES            
   -----------------------------------------*/    
 
+
+  .class {
+    background-color: #000;
+  }
   .schedule {
     background: var(--black-color);
   }
@@ -1132,7 +1196,7 @@
   .site-footer {
     border-top: 1px solid #00bfff;
     padding: 2rem ;
-    background-color:#24292f ;
+    background-color:#000 ;
   }
 
   .site-footer a {
@@ -1182,7 +1246,7 @@
   }
 
   .contact-us-email {
-    color:#000;
+    color:#fff;
    margin-bottom: 80px ;
    margin-left: 20px;;
   }
