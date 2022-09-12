@@ -30,23 +30,23 @@
 }
 
   :root {
-    --primary-color:        #00bfff;
+    --primary-color:        #00ffff;
     --white-color:          #ffffff;
     --black-color:          #000000;
     --light-grey-color:     #24292f;
     --dark-grey-color:      #191919;
-    --blue-color:           #00bfff;
+    --blue-color:           #00ffff;
     --very-blue-color:      #33475c;
-    --res-blue-color:       #3c5875;
-    --green-color:          #a6ff33;
-    --btn-green:            #a6ff33;
-    --btn-blue:             #00bfff;
+    --res-blue-color:       #00ffff;
+    --green-color:          #496785;
+    --btn-green:            #496785;
+    --btn-blue:             #00ffff;
     --btn-black:            #000000;
     --dark-color:           #24262f;
     --about-bg-color:       #1f242e;
 
     --gray-color:           #fff;
-    --link-color:           #00bfff;
+    --link-color:           #00ffff;
     --p-color:              #dddddd;
     --footer-text-color:    #ddd;
 
@@ -151,23 +151,26 @@
   }
 
   .h2-black {
-    font-size: var(--h2-font-size);
+    font-size: var(--h4-font-size);
     font-weight: var(--font-weight-bold);
+    font-family: Pirulen, Arial, Helvetica, sans-serif;
     color: #fff;
     text-align: left;
   }
 
   .h2-res {
-    font-size: var(--h2-font-size);
+    font-size: var(--h4-font-size);
     font-weight: var(--font-weight-bold);
+    font-family: Pirulen, Arial, Helvetica, sans-serif;
     color: #fff;
     text-align: left;
     margin-left: 48px;
   }
 
   .h2-about {
-    font-size: var(--h2-font-size);
+    font-size: var(--h4-font-size);
     font-weight: var(--font-weight-bold);
+    font-family: Pirulen, Arial, Helvetica, sans-serif;
     color: #fff;
     text-align: left;
     margin-bottom: 40px;
@@ -176,8 +179,9 @@
 
 
   .h2-features {
-    font-size: var(--h2-font-size);
+    font-size: var(--h4-font-size);
     font-weight: var(--font-weight-bold);
+    font-family: Pirulen, Arial, Helvetica, sans-serif;
     color: #fff;
     text-align: left;
     margin-left: 48px;
@@ -193,8 +197,9 @@
   }
 
   .h2-git {
-    font-size: var(--h2-font-size);
+    font-size: var(--h4-font-size);
     font-weight: var(--font-weight-bold);
+    font-family: Pirulen, Arial, Helvetica, sans-serif;
     color: #000;
     text-align: left;
    
@@ -213,7 +218,7 @@
     display: block;
     width: 120px;
     height: 2px;
-    background: #00bfff;
+    background: #00ffff;
     position: absolute; 
     margin-top: 4px;
     margin-bottom: 12px;    
@@ -224,7 +229,7 @@
     display: block;
     width: 120px;
     height: 2px;
-    background: #00bfff;
+    background: #00ffff;
     position: absolute; 
     margin-top: -22px;
      
@@ -236,8 +241,8 @@
   }
 
   .hero-main {
-    font-size:28px;
-    max-width: 540px;
+    font-size:25px;
+    max-width: 720px;
     width: 100%;
     margin: 0 auto;
     margin-bottom: 24px;
@@ -248,7 +253,7 @@
     display: block;
     width: 120px;
     height: 2px;
-    background: #00bfff;
+    background: #00ffff;
     position: absolute; 
     margin-top: 16px;    
   }
@@ -258,7 +263,7 @@
     display: block;
     width: 120px;
     height: 2px;
-    background: #00bfff;
+    background: #00ffff;
     position: absolute; 
     margin-top: 16px;  
     margin-left: 48px;  
@@ -269,7 +274,7 @@
     display: block;
     width: 120px;
     height: 2px;
-    background: #00bfff;
+    background: #00ffff;
     position: absolute; 
     margin-top: 16px;
     margin-left: 48px;
@@ -280,7 +285,7 @@
     display: block;
     width: 120px;
     height: 2px;
-    background: #00bfff;
+    background: #00ffff;
     position: absolute; 
     margin-top: 16px;
   
@@ -291,7 +296,7 @@
     display: block;
     width: 120px;
     height: 2px;
-    background: #00bfff;
+    background: #00ffff;
     position: absolute; 
     margin-top: 16px;
   
@@ -316,7 +321,7 @@
   .strong-h3 {
     font-weight: var(--font-weight-bold);
     letter-spacing: 0;
-    color: #00bfff;
+    color: #00ffff;
 
     margin-top: 10px;
     margin-bottom: 10px;
@@ -439,7 +444,7 @@
     width: 140px;
     margin: 0 10px;
     padding: 10px 12px;
-    border-radius: 24px;
+    border-radius: 10px;
     font-size: var(--hero-font-size);
     font-weight: bold;
     text-transform: uppercase;
@@ -473,7 +478,7 @@
     width: 140px;
     margin: 0 10px;
     padding: 10px 12px;
-    border-radius: 24px;
+    border-radius: 10px;
     font-size: var(--hero-font-size);
     font-weight: bold;
     text-transform: uppercase;
@@ -521,7 +526,7 @@
   /* CONTACT buttons */
   .custom-btn-contact {
     background: transparent;
-    border-radius: 24px;
+    border-radius: 10px;
     padding: 10px 14px;
     color: var(--btn-green);
     font-size: var(--btn-font-size);
@@ -615,6 +620,7 @@
           color: var(--res-blue-color);
           font-size: var(--menu-font-size);
           font-weight: var(--font-weight-normal);
+          font-family: Pirulen, Arial, Helvetica, sans-serif;
           text-transform: uppercase;
           letter-spacing: 0.5px;
           white-space: nowrap;
@@ -622,7 +628,7 @@
         }
       
         .custom-btn-dark-grey:hover {
-          color: var(--btn-blue);
+          color: var(--btn-green);
         }
       
         .custom-btn-dark-grey:focus {
@@ -636,7 +642,7 @@
         .custom-btn-dark-grey:focus {
           background: var(--white-color);
           border-color: transparent;
-          color: var(--btn-blue);
+          color: var(--btn-green);
         }
         .bordered {
           border: 1px solid var(--btn-blue);
@@ -656,7 +662,7 @@
     max-width: fit-content;
     padding: 10px 14px;
 
-    border-radius: 24px;
+    border-radius: 10px;
     color: var(--btn-green);
     font-size: var(--btn-font-size);
     font-weight: var(--font-weight-normal);
@@ -793,14 +799,17 @@
   }
 
   .navbar-logo {
-    width: 48px;
+    width: 36px;
     height: auto;
+    margin-right: 10px;
+    margin-top: -5px;
   }
 
   .navbar-brand {
     color: var(--white-color);
     font-size: var(--h4-font-size);
     font-weight: var(--font-weight-normal);
+    font-family: Pirulen, Arial, Helvetica, sans-serif;
     line-height: normal;
     padding-top: 0;
   }
@@ -809,6 +818,7 @@
     display: block;
     color: var(--blue-color);
     font-size: var(--menu-font-size);
+    font-family: Pirulen,Arial, Helvetica, sans-serif;
     font-weight: var(--font-weight-normal);
     text-transform: uppercase;
     padding: 2px 6px;
@@ -912,7 +922,7 @@
   -----------------------------------------*/
 
   .hero {
-    background-image: url('../images/hero-back.png');
+    background-image: url('../images/hero-back2.png');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -926,11 +936,11 @@
   }
 
   .hero-text-title {
-    color: #00bfff;
+    color: #00ffff;
     font-weight: bold;
     font-size: 36px;
     word-spacing: 8px;;
-    font-family: var(--base-font-family);
+    font-family: Pirulen, Arial, Helvetica, sans-serif;
 
   }
 
@@ -944,8 +954,8 @@
     display: block;
     width: 20px;
     height: 20px;
-    border-bottom: 2px solid #00bfff;
-    border-right: 2px solid #00bfff;
+    border-bottom: 2px solid #00ffff;
+    border-right: 2px solid #00ffff;
     transform: rotate(45deg);
     margin: -10px;
     animation: animate 2s infinite;
@@ -1198,7 +1208,7 @@
   -----------------------------------------*/
 
   .site-footer {
-    border-top: 1px solid #00bfff;
+    border-top: 1px solid #00ffff;
     padding: 2rem ;
     background-color:#000 ;
   }
@@ -1258,6 +1268,13 @@
   .copyright {
     text-align: right;
     margin-right: 20px;
+
+  }
+
+  .spd{
+    color:#fff;
+    font-style: italic;
+    display: inline-block;
   }
 
 
@@ -1306,5 +1323,23 @@
 
     .contact h2 span {
       display: block;
+    }
+
+    .hero-main {
+      font-size: 18px;
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 24px;
+      font-family: Pirulen, Arial, Helvetica, sans-serif;
+    }
+
+    .hero-text-title {
+      color: #00ffff;
+      font-weight: bold;
+      font-size: 18px;
+      word-spacing: 8px;;
+      font-family: Pirulen, Arial, Helvetica, sans-serif;
+  
     }
   }
