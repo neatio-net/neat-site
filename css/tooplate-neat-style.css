@@ -330,6 +330,7 @@
 
   .section {
     padding: 7rem 0;
+    background-color: #000;
   }
 
 .h2-git {
@@ -446,7 +447,8 @@
     padding: 10px 12px;
     border-radius: 10px;
     font-size: var(--hero-font-size);
-    font-weight: bold;
+    font-family: Pirulen, Arial, Helvetica, sans-serif;
+    font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     white-space: nowrap;
@@ -474,7 +476,8 @@
   }
 
   .custom-btn-hero2 {
-    background: var(--light-grey-color);
+    background: #000;
+    color: #00ffff;
     width: 140px;
     margin: 0 10px;
     padding: 10px 12px;
@@ -577,7 +580,8 @@
 
       color: var(--btn-blue);
       font-size: var(--hero-font-size);
-      font-weight: bold;
+      font-family: Pirulen, Arial, Helvetica, sans-serif;
+      font-weight: normal;
       text-transform: uppercase;
       letter-spacing: 0.5px;
       white-space: nowrap;
@@ -776,11 +780,14 @@
   -----------------------------------------*/
 
   .feature {
-    background: var(--dark-color);
+    background: #121920;
     padding: 5rem 0;
   }
 
-
+  .res-fluid {
+    max-width: 75%;
+    margin-left: 25%;
+  }
 
 
   /*---------------------------------------
@@ -806,9 +813,9 @@
   }
 
   .navbar-brand {
-    color: var(--white-color);
+    color: #00ffff;
     font-size: var(--h4-font-size);
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-bold);
     font-family: Pirulen, Arial, Helvetica, sans-serif;
     line-height: normal;
     padding-top: 0;
@@ -1110,7 +1117,7 @@
   -----------------------------------------*/
 
   .about {
-    background: var(--about-bg-color);
+    background: #000;
   }
 
   .about-working-hours {
