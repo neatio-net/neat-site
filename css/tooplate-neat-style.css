@@ -55,6 +55,7 @@
     --green-color:          #496785;
     --btn-green:            #496785;
     --btn-blue:             #00ffff;
+    --btn-greenz:           #a6ff33;
     --btn-black:            #000000;
     --dark-color:           #24262f;
     --about-bg-color:       #1f242e;
@@ -489,6 +490,41 @@
     color: var(--btn-blue);
   }
 
+  .custom-btn-heroz {
+    background: transparent;
+    width: 140px;
+    margin: 10px;
+    /* padding: 10px 12px; */
+    border-radius: 10px;
+    font-size: var(--hero-font-size);
+    font-family: Pirulen, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    
+  }
+
+  .custom-btn-heroz:hover {
+    color: var(--btn-blue);
+    background: var(--light-grey-color);
+  }
+
+  .custom-btn-heroz:focus {
+    box-shadow: none;
+  }
+
+  .custom-btn-heroz.bordered:hover,
+  .custom-btn-heroz.bordered:focus,
+
+  .custom-btn-heroz.bg-color2:hover,
+  .custom-btn-heroz.bg-color2:focus {
+    background: var(--light-grey-color);
+    border-color: var(--btn-blue);
+    color: var(--btn-blue);
+  }
+
   .custom-btn-hero2 {
     background: #000;
     color: #00ffff;
@@ -532,6 +568,11 @@
   .bordered2 {
     border: 1px solid var(--btn-blue);
     color: var(--btn-blue);
+  }
+
+  .bordered3 {
+    border: 1px solid var(--btn-greenz);
+    color: var(--btn-greenz);
   }
 
   .bg-color {
@@ -819,6 +860,12 @@
     padding-left: 1.5rem;
   }
 
+
+  .navbar-expand-lg2 .navbar-nav2 .nav-link2 {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
   .navbar-logo {
     width: 36px;
     height: auto;
@@ -951,6 +998,7 @@
     min-height: 100vh;
     position: relative;
   }
+
 
   .hero-text {
      margin-bottom: 80px;
@@ -1334,7 +1382,15 @@
   @media screen and (max-width: 767px) {
 
     h1 {
-      font-size: 38px;
+      font-size: 34px;
+    }
+
+    .hero-description {
+     font-size: 10px;
+    }
+
+    p {
+      font-size: 0.8rem;
     }
 
     .about-working-hours {
@@ -1347,20 +1403,70 @@
     }
 
     .hero-main {
-      font-size: 18px;
+      font-size: 0.9rem;
       max-width: 720px;
+      font-weight: lighter;
       width: 100%;
       margin: 0 auto;
-      margin-bottom: 24px;
+      margin-bottom: 20px;
       font-family: Pirulen, Arial, Helvetica, sans-serif;
     }
 
     .hero-text-title {
       color: #00ffff;
       font-weight: bold;
-      font-size: 18px;
-      word-spacing: 8px;;
+      font-size: 14px;
+      word-spacing: 6px;;
       font-family: Pirulen, Arial, Helvetica, sans-serif;
   
     }
+
+    .icsso {
+
+    
+      padding-top: 50px;
+
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .arrow{
+      position: absolute;
+      bottom: 5%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .arrow span{
+      display: block;
+      width: 20px;
+      height: 20px;
+      border-bottom: 2px solid #00ffff;
+      border-right: 2px solid #00ffff;
+      transform: rotate(45deg);
+      margin: -10px;
+      animation: animate 2s infinite;
+  }
+  .arrow span:nth-child(2){
+      animation-delay: -0.2s;
+  }
+  .arrow span:nth-child(3){
+      animation-delay: -0.4s;
+  }
+  @keyframes animate {
+      0%{
+          opacity: 0;
+          transform: rotate(45deg) translate(-20px,-20px);
+      }
+      50%{
+          opacity: 1;
+      }
+      100%{
+          opacity: 0;
+          transform: rotate(45deg) translate(20px,20px);
+      }
+  }
+  
+  .hide {
+    display: none;
+   }
   }
