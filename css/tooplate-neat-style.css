@@ -204,8 +204,9 @@
   }
 
   .h2-roadmap {
-    font-size: var(--h2-font-size);
+    font-size: var(--h4-font-size);
     font-weight: var(--font-weight-bold);
+    font-family: Pirulen, Arial, Helvetica, sans-serif;
     color: #fff;
     text-align: left;   
     margin-top: 16px;
