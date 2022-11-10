@@ -845,6 +845,13 @@
     margin-left: 25%;
   }
 
+  .markets-img {
+ width: 480px;
+  }
+
+  .mrkts {
+    display: inline-block;
+  }
 
   /*---------------------------------------
     NAVBAR            
