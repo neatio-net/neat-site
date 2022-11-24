@@ -1409,6 +1409,8 @@
       padding: 22px 0 0 0;
     }
 
+
+
     .contact h2 span {
       display: block;
     }
@@ -1430,6 +1432,14 @@
       word-spacing: 6px !important;
       font-family: Pirulen, Arial, Helvetica, sans-serif !important;
   
+    }
+
+
+
+    .boxess {
+      display: inline-block;
+      gap: 20px;
+      margin: 12px 24px;
     }
 
     .mrkts {
