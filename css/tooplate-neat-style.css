@@ -861,7 +861,7 @@
   -----------------------------------------*/
 
   .navbar {
-    background: #000;
+    background: #00233b;
     padding: 1rem;
     border-bottom: 1px solid #fff;
   }
@@ -878,15 +878,15 @@
   }
 
   .navbar-logo {
-    width: 36px;
+    width: 44px;
     height: auto;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-top: -5px;
   }
 
   .navbar-brand {
-    color: #00ffff;
-    font-size: var(--h4-font-size);
+    color: #fff;
+    font-size: 18px;
     font-weight: var(--font-weight-bold);
     font-family: Pirulen, Arial, Helvetica, sans-serif;
     line-height: normal;
@@ -1001,7 +1001,7 @@
   -----------------------------------------*/
 
   .hero {
-    background-image: url('../images/hero-back2.png');
+    //background-image: url('../images/hero-back2.png');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -1010,14 +1010,26 @@
     position: relative;
   }
 
+  #neatioV3 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .container {
+
+  }
+
 
   .hero-text {
-     margin-bottom: 80px;
+     margin-bottom: 480px;
   }
 
   .hero-text-title {
     color: #00ffff;
-    font-weight: bold;
+    font-weight: Regular;
     font-size: 36px;
     word-spacing: 8px;;
     font-family: Pirulen, Arial, Helvetica, sans-serif;
