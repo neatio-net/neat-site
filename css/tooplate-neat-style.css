@@ -584,7 +584,7 @@
 
   /* CONTACT buttons */
   .custom-btn-contact {
-    background: transparent;
+    background: #000;
     border-radius: 10px;
     padding: 10px 14px;
     color: var(--btn-green);
@@ -1356,10 +1356,11 @@
     
    color:#fff;
    margin-bottom: 80px ;
-   margin-left: 20px;
+   margin: 20px 10px;
    z-index: 2;
    position: relative;
-   margin: 0 auto;
+
+   
 
 
    
