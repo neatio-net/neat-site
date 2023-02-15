@@ -1024,7 +1024,7 @@
 
 
   .hero-text {
-     margin-bottom: 480px;
+     margin-bottom: 40vh;
   }
 
   .hero-text-title {
@@ -1449,6 +1449,10 @@
       margin-bottom: 20px !important;
       font-family: Pirulen, Arial, Helvetica, sans-serif !important;
     }
+
+    .hero-text {
+      margin-bottom: 20vh;
+   }
 
     .hero-text-title {
       color: #00ffff !important;
