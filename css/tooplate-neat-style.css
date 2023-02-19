@@ -1038,8 +1038,8 @@
 
   .arrow{
     position: absolute;
-    bottom: 20%;
-    left: 50%;
+    bottom: 16%;
+    left: 49.85%;
     transform: translate(-50%,-50%);
 }
 .arrow span{
