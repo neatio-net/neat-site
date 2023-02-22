@@ -1082,16 +1082,17 @@
 
   .class-info {
     background: transparent;
-    box-shadow: 6px 0 38px rgba(20,20,20,0.10);
-    border-radius: 10px 0 2px 2px;
+    border: 1px solid #00ffffa4;
+    border-radius: 10px;
+    box-shadow: 0 0 40px #00bfff50;
     padding: 1rem 2rem;
     position: relative;
   }
 
   .class-thumb{
-    border-color: #fff;
+    border-color: transparent;
     border-style: groove;
-    border-width: 1px;
+
   }
 
   .class-info img {
