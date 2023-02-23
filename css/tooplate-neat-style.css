@@ -1119,8 +1119,12 @@
   }
 
   .validator-image {
-    width: auto;
+    width: 360px;
     height: auto;
+    background: transparent;
+    border: 1px solid #00ffffa4;
+    border-radius: 10px;
+    box-shadow: 0 0 40px #00bfff50;
 
   }
   /*---------------------------------------
