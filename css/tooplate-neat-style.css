@@ -847,6 +847,7 @@
 
   .markets-img {
     width: 320px;
+    height: auto;
   }
 
   .mrkts {
