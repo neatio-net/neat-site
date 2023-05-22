@@ -901,7 +901,7 @@
     font-family: Pirulen,Arial, Helvetica, sans-serif;
     font-weight: var(--font-weight-normal);
     text-transform: uppercase;
-    padding: 2px 6px;
+    padding: 2px 4px;
   }
 
   .nav-item .nav-link.active,
