@@ -192,7 +192,9 @@
     margin-top: -36px;
   }
 
-
+.spin-globe{
+  display: flex;
+}
   .h2-features {
     font-size: var(--h4-font-size);
     font-weight: var(--font-weight-bold);
